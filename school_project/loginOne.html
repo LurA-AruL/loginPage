@@ -15,50 +15,52 @@
 </head>
 <body>
     
-    <div class="">
-        <header class=" position-relative d-flex justify-content-center align-items-center">
-            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQtvyQHHF_BSfQR4nwVq5mVfOGevEEZmoqIAt8OyVKp_jjGDoOSpLuvDeEZv3CqUfkuT6I&usqp=CAU" alt="" class="w-100 position-absolute img_bg">
-            <a href="#" onclick="history.go(-1);" class="btn backbtn"><i class="bi bi-arrow-left"></i></a>
-            <div class="logo_wrapper">
-                <img src="images/login/logo1.png" alt="" class="w-100">
-            </div>
-        </header>
-        <div class="container-fluid">
-            <div class="container">
-            
-                <form action="" method="post" class="d-flex justify-content-around flex-column">
-                    <div class="welTilte text-center">
-                        <h2>Welcom Back</h2>
-                        <p class="text-secondary">login to your account</p>
-                    </div>
-                    <div>
-                        <div class="input-group mb-3">
-                            <span class="input-group-text"><i class="bi bi-person-fill"></i></span>
-                            <input type="text" name="username" class="form-control" placeholder="Full Name" >
+    <div class="main_wrapper ">
+        <div class="inner_wrapper shadow">
+            <header class=" position-relative d-flex justify-content-center align-items-center">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQtvyQHHF_BSfQR4nwVq5mVfOGevEEZmoqIAt8OyVKp_jjGDoOSpLuvDeEZv3CqUfkuT6I&usqp=CAU" alt="" class="w-100 position-absolute img_bg">
+                <a href="#" onclick="history.go(-1);" class="btn backbtn"><i class="bi bi-arrow-left"></i></a>
+                <div class="logo_wrapper">
+                    <img src="images/login/logo1.png" alt="" class="w-100">
+                </div>
+            </header>
+            <div class="container-fluid">
+                <div class="container">
+                
+                    <form action="" method="post" class="d-flex justify-content-around flex-column">
+                        <div class="welTilte text-center">
+                            <h2>Welcom Back</h2>
+                            <p class="text-secondary">login to your account</p>
                         </div>
-                        <div class="input-group mb-2">
-                            <span class="input-group-text"><i class="bi bi-lock-fill"></i></span>
-                                <input type="password" name="password" class="form-control " placeholder="Password" >
-                                <i class="bi bi-eye-fill position-absolute" id="togglePassword"></i>
-                        </div>
-                        <div class="form-check mb-3 d-flex justify-content-between">
-                            <div class="div">
-                                <input class="form-check-input" type="checkbox" id="rememberMe">
-                                <label class="form-check-label Remember" for="rememberMe">Remember Me</label>
+                        <div>
+                            <div class="input-group mb-3">
+                                <span class="input-group-text"><i class="bi bi-person-fill"></i></span>
+                                <input type="text" name="username" class="form-control" placeholder="Full Name" >
                             </div>
-                            <div class="forgot">
-                                <a href="">Forgot password?</a>
+                            <div class="input-group mb-2">
+                                <span class="input-group-text"><i class="bi bi-lock-fill"></i></span>
+                                    <input type="password" name="password" class="form-control " placeholder="Password" >
+                                    <i class="bi bi-eye-fill position-absolute" id="togglePassword"></i>
+                            </div>
+                            <div class="form-check mb-3 d-flex justify-content-between">
+                                <div class="div">
+                                    <input class="form-check-input" type="checkbox" id="rememberMe">
+                                    <label class="form-check-label Remember" for="rememberMe">Remember Me</label>
+                                </div>
+                                <div class="forgot">
+                                    <a href="">Forgot password?</a>
+                                </div>
                             </div>
                         </div>
-                    </div>
-                    <div class="text-center">
-                        <input type="submit" value="Sign In" class="btn w-100">
-                        <div class="singUp text-secondary">
-                            Dont't have account? <a href="">Sign up</a>
+                        <div class="text-center">
+                            <input type="submit" value="Sign In" class="btn w-100">
+                            <div class="singUp text-secondary">
+                                Dont't have account? <a href="">Sign up</a>
+                            </div>
                         </div>
-                    </div>
-                    
-                </form>
+                        
+                    </form>
+                </div>
             </div>
         </div>
     </div>
