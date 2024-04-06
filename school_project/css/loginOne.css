@@ -23,6 +23,18 @@
 }
 
 
+.main_wrapper{
+  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+
+}
+.inner_wrapper{
+    width: 600px;
+}
+
  /* CSS for forgot password link */
  header{
     min-height: 40vh;
@@ -136,6 +148,26 @@ input[type="submit"]:hover {
 }
 
 .logo_wrapper{
-    width: 80%;
+    width: 60%;
     height: 150px;
+}
+
+@media screen and (max-width:500px) {
+    .logo_wrapper{
+        width: 80%;
+        height: 150px;
+    }
+    .main_wrapper{
+  
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: auto;
+    
+    }
+    .inner_wrapper{
+        width: 100%;
+        box-shadow: none !important;
+    }
+
 }
