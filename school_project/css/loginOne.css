@@ -1,0 +1,141 @@
+ :root{
+    --primary_Color:#ae69dd;
+    /* --primary_Color:rgb(64,116,77); */
+    --secondary_Color:#dec4f06c;
+    /* --secondary_Color:rgb(218, 229, 221); */
+    --white_Color:#fff;
+
+    /*=========================== skola color themes ====================================*/
+    --sk-primary:#ae69dd;
+    --sk-primary-one:#d44589;
+    --sk-secondary:#af4792;
+    --sk-secondary-one: #814adc;
+    --sk-secondary-two :#ae69dd;
+
+    
+   
+    
+ }
+
+
+ body {
+    font-family: 'Poppins', sans-serif;
+}
+
+
+ /* CSS for forgot password link */
+ header{
+    min-height: 40vh;
+}
+header .img_bg{
+    width: 100%;
+    min-height: 40vh;
+    max-height: 40vh;
+    border-radius: 0% 0% 60% 0%;
+    filter: brightness(0.3);
+    z-index: -2;
+}
+.container form{
+    min-height: 50vh;
+}
+
+#togglePassword {
+    left: 90%;
+    top: 20%;
+    z-index: 888;
+}
+.backbtn {
+    background-color: var(--secondary_Color);
+    padding: 7px 10px;
+    border-radius: 50%;
+    position: absolute;
+    top: 15%;
+    left: 10%;
+    color: var(--white_Color);
+
+}
+.backbtn i{
+    color: var(--white_Color);
+}
+/* Reset input focus styles */
+.form-control:focus {
+    border-color: var(--secondary_Color); /* Set border color to the default color */
+    box-shadow: none; /* Remove any box shadow */
+    background-color: var(--secondary_Color);
+}
+
+
+.forgot a {
+    color: var(--primary_Color);
+    font-size: 12px;
+}
+.Remember {
+font-size:14px ;
+}
+
+.welTilte h2 {
+    color: var(--primary_Color);
+    font-size: 1.8rem;
+    font-weight: 700;
+    margin-bottom: 2px;
+}
+.input-group{
+    background-color: var(--secondary_Color);
+    border-radius: 5px;
+}
+input[type="text"],input[type="password"], .input-group-text{
+background-color: var(--secondary_Color);
+border: none;
+border-radius: 0;
+border-top-right-radius: 5px ;
+border-bottom-right-radius: 5px ;
+}
+.input-group>.custom-select:not(:last-child), .input-group>.form-control:not(:last-child) {
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+.input-group-text{
+padding: .375rem 0.1rem 0.375rem 0.75rem;
+border-top-right-radius: 0 ;
+border-bottom-right-radius: 0 ;
+border-top-left-radius: 5px ;
+border-bottom-left-radius: 5px ;
+}
+
+input[type="text"]::placeholder,input[type="password"]::placeholder,i{
+    color: var(--primary_Color);
+}
+/* input[type="text"],input[type="password"],i{
+padding: 0px;
+} */
+/* CSS for signup link color */
+.singUp {
+    padding-top: 10px;
+}
+.singUp a {
+    color:  var(--primary_Color);
+    text-decoration: underline;
+}
+.form-control {
+    padding: .375rem .5rem;
+}
+
+
+/* CSS for submit button background color */
+input[type="submit"] {
+    background-color: var(--primary_Color);
+    color: var(--white_Color);
+    border-radius: 20px;
+    font-weight: 600;
+    padding: 8px;
+    transition: all 0.8s linear;
+}
+input[type="submit"]:hover {
+    background-color: var(--secondary_Color);
+    color: var(--primary_Color);
+}
+
+.logo_wrapper{
+    width: 80%;
+    height: 150px;
+}
